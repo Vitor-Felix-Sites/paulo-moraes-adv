@@ -713,7 +713,7 @@ section {
 }
 
 .faq__toggle:checked+.faq__question+.faq__answer {
-    max-height: 200px;
+    max-height: 800px;
     padding-top: var(--spacing-sm);
 }
 
