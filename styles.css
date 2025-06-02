@@ -138,6 +138,10 @@ h4 {
 p {
     margin-bottom: var(--spacing-sm);
 }
+a{
+    margin: 0;
+    padding: 0;
+}
 
 a {
     color: var(--highlightColor);
@@ -246,12 +250,20 @@ a:hover {
     width: 220px;
 }
 
-@media(max-width: 936px){
+@media(max-width: 982px){
     .nav__logo-img {
     width: 120px;
 }
 .nav__menu .nav__link{
     font-size: 0.8rem!important;
+}
+@media(max-width: 768px){
+    .nav__logo-img {
+    width: 150px;
+}
+.nav__menu .nav__link{
+    font-size: 1rem!important;
+}
 }
 }
 .nav__menu {
@@ -862,7 +874,7 @@ select.form__input {
 }
 
 .footer__logo {
-    width: 40px;
+    width: 60px;
     height: 40px;
     margin-bottom: var(--spacing-sm);
     filter: brightness(0) invert(1);
@@ -1015,4 +1027,12 @@ section {
 }
 #btn-contact{
     width: 100%;
+}
+#consulta-processos{
+        color: var(--textColor);
+    background-color: var(--background);
+    border-color: var(--highlightColor);
+}
+#consulta-processos .section__title, #consulta-processos  .section__subtitle{
+    color: var(--highlightColor);
 }
